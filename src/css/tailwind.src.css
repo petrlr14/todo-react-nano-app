@@ -1,4 +1,17 @@
 @tailwind base;
 @tailwind components;
 /* here goes custom classes with @apply directive */
+
+.navbar-item{
+    @apply flex-1 text-white
+}
+
+.navbar-item>a{
+    transition: ease-in-out all .4s;
+}
+
+.navbar-item>a:hover{
+    @apply text-green-200
+}
+
 @tailwind utilities;

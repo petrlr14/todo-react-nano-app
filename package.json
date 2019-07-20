@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "tailwind:css":"tailwind build src/css/tailwind.src.css -c tailwind.js -o src/css/tailwind.css",
-    "start": "npm run tailwind:css && parcel index.html",
+    "tailwind:css": "tailwind build src/css/tailwind.src.css -c tailwind.js -o src/css/tailwind.css",
+    "start": "npm run tailwind:css && parcel index.html -p 3000",
     "build": "npm run tailwind:css && parcel build index.html"
   },
   "license": "MIT",
   "dependencies": {
+    "firebase": "^6.3.1",
+    "rea": "0.0.1",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

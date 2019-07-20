@@ -629,6 +629,19 @@ video {
 
 /* here goes custom classes with @apply directive */
 
+.navbar-item{
+  flex: 1 1 0%;
+  color: #fff
+}
+
+.navbar-item>a{
+  transition: ease-in-out all .4s;
+}
+
+.navbar-item>a:hover{
+  color: #c6f6d5
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
