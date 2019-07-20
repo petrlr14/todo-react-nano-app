@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+/* here goes custom classes with @apply directive */
+@tailwind utilities;
